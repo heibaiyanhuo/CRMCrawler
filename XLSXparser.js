@@ -11,7 +11,7 @@ function XLSXparser() {
 
 XLSXparser.prototype.create =  function (data) {
     let buffer = xlsx.build([{name: 'students', data: data}]);
-    fs.writeFileSync('students_yezi_2.xlsx', buffer, 'binary');
+    fs.writeFileSync('students.xlsx', buffer, 'binary');
 };
 
 
