@@ -24,7 +24,7 @@ function getBasicInfo() {
     // let data = [["姓名", "电话", "学校" , "专业", "申请学历", "意向专业", "在读年级", "基本情况", "最近回访内容", "渠道"]]
     let options = {
         method: 'POST',
-        url: properties.get('baseUrl.overall') + '?page=1&rows=300',
+        url: properties.get('baseUrl.overall') + '?page=1&rows=200',
         headers: {
             'Authorization': properties.get('auth.basic')
         }
